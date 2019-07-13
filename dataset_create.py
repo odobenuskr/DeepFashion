@@ -307,7 +307,7 @@ def generate_dataset_images(category_names):
                                                                                                                                    # x1,y1: top left coordinate of crop; x2,y2: bottom right coordinate of crop
                         logging.debug('Ground bbox:  gt_x1:{} gt_y1:{} gt_x2:{} gt_y2:{}'.format(gt_x1, gt_y1, gt_x2, gt_y2))
 
-                        image_path_name_src = os.path.join(fashion_dataset_path, 'Img', image_path_name)
+                        image_path_name_src = os.path.join(fashion_dataset_path, image_path_name)
                         logging.debug('image_path_name_src {}'.format(image_path_name_src))
 
                         calculate_bbox_score_and_save_img(image_path_name_src, dataset_image_path, gt_x1, gt_y1, gt_x2, gt_y2)

@@ -9,7 +9,7 @@ from config import *
 ### FUNCTIONS ###
 
 def selective_search_bbox(image):
-    logging.debug('image {}'.format(image))
+    # logging.debug('image {}'.format(image))
 
     # load image
     img = skimage.io.imread(image)

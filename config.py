@@ -29,11 +29,11 @@ from PIL import ImageDraw
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import skimage.data
-import selectivesearch
+import selective_search
 
 
 import logging
-import colored_traceback
+import colored-traceback
 colored_traceback.add_hook(always=True)
 FORMAT = "[%(lineno)4s : %(funcName)-30s ] %(message)s"
 #logging.basicConfig(level=logging.INFO, format=FORMAT)

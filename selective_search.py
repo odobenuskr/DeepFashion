@@ -4,7 +4,7 @@
 
 ### IMPORTS
 from config import *
-
+import logging
 
 ### FUNCTIONS ###
 

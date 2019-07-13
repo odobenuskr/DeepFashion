@@ -33,7 +33,7 @@ import selective_search
 
 
 import logging
-import colored-traceback
+import colored_traceback
 colored_traceback.add_hook(always=True)
 FORMAT = "[%(lineno)4s : %(funcName)-30s ] %(message)s"
 #logging.basicConfig(level=logging.INFO, format=FORMAT)
